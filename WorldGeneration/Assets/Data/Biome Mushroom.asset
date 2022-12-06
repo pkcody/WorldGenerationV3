@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cd15b6372baa04cab09f5cad64a81a, type: 3}
+  m_Name: Biome Mushroom
+  m_EditorClassIdentifier: 
+  Name: Mushroom
+  MinIntensity: 0.5
+  MaxIntensity: 1
+  MinDecayRate: 0.01
+  MaxDecayRate: 0.02
+  HeightModifier: {fileID: 0}
+  Textures:
+  - UniqueID: Blue-Mushroom
+    Diffuse: {fileID: 2800000, guid: 69b1fd05e60a58e49920ab8825d617db, type: 3}
+    NormalMap: {fileID: 0}
